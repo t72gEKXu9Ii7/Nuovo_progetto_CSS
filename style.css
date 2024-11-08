@@ -4,4 +4,6 @@ p {
     color: rgba(246, 5, 5, 0.89);
     text-align: right;
 }
-
+.testo-destra {
+    text-align: right;
+}
