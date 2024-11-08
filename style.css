@@ -7,3 +7,21 @@ p {
 .testo-destra {
     text-align: right;
 }
+h1 {
+    color:rgba(246, 5, 5, 0.89)
+}
+h2 {
+    color: blue;
+}
+h3 {
+    color:blueviolet
+}
+h4 {
+    color:aqua
+}
+h5 {
+    color:#13ec08fa
+}
+h6 {
+    color: #ecec08fa;
+}
