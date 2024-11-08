@@ -1,2 +1,6 @@
 /* File: stile.css */
 .paragrafo-colorato {color: #ec0808fa;}
+p {
+    color: blue;
+    text-align: right;
+}
