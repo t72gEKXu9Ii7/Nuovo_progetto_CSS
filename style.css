@@ -1,6 +1,7 @@
 /* File: stile.css */
 .paragrafo-colorato {color: #ec0808fa;}
 p {
-    color: blue;
+    color: rgba(246, 5, 5, 0.89);
     text-align: right;
 }
+
