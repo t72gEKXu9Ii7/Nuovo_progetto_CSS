@@ -46,3 +46,11 @@ h6 {
 .bordi-arrotondati {
     border-radius: 15px;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    background-color: skyblue;
+}
