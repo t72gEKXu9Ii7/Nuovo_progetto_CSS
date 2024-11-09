@@ -25,3 +25,8 @@ h5 {
 h6 {
     color: #ecec08fa;
 }
+#contenitore-colorato {
+    background-color: #ff00cc;
+    padding: 20px;
+    border-radius: 8px;
+}
