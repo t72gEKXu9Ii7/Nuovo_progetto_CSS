@@ -81,3 +81,12 @@ a:hover {
     border-radius: 6px;
     padding: 11px;
 }
+p {
+    color:gray;
+}
+.classe-paragrafo {
+    color: skyblue;
+}
+#paragrafo-unico {
+    color:orangered
+}     
