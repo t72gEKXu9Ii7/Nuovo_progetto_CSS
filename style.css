@@ -68,3 +68,16 @@ a {
 a:hover {
     color:orange;
 }
+.lista-stilizzata li {
+    padding: 10px;
+    font-size: 18px;
+    color: #333333;
+}
+
+.lista-stilizzata li:last-child {
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 11px;
+}
