@@ -90,3 +90,11 @@ p {
 #paragrafo-unico {
     color:orangered
 }     
+.content {
+    color: gray;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
