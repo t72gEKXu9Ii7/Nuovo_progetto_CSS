@@ -228,6 +228,59 @@
         .hidden {
             opacity: 0;
         }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            overflow: hidden;
+            position: relative;
+        }
+        .card img {
+            width: 100%;
+            display: block;
+        }
+        .card .content {
+            padding: 20px;
+        }
+        .card h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .card p {
+            margin: 10px 0 0;
+            color: #555;
+        }
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 1;
+        }
+        .close-btn:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
     </style>
 </head>
 <body>
@@ -313,6 +366,14 @@
         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="card">
+        <img src="https://tortaprint.com/wp-content/uploads/imported/Cialda-per-torta-INTER-CALCIO-decorazione-alimentare-senza-glutine-topper-cake-img-1-Pasta-di-zucchero-20x25-cm-B07NPPFWP3.jpg?_gl=1*1kgn3ky*_up*MQ..*_ga*MTQwMTA5MzM5MC4xNzMxODExNzQ5*_ga_1GR9F7J60T*MTczMTgxMTc0OC4xLjAuMTczMTgxMTc0OC4wLjAuMA.." alt="Esempio immagine">
+        <button class="close-btn">X</button>
+        <div class="content">
+            <h3>Titolo della Card</h3>
+            <p>Questa è una descrizione breve per il contenuto della card. Puoi personalizzarla come preferisci.</p>
+        </div>
     </div>
     
     <footer>Copyright footer</footer>
