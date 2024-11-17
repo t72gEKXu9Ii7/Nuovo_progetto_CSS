@@ -92,7 +92,6 @@
         }
     </style>
 </head>
-<body>
     <p>
         <span class="span-inline">Inline</span>
         <span class="span-inline-block">Inline-block</span>
@@ -100,7 +99,6 @@
     </p>
     </style>
 </head>
-<body>
     <ul>
         <li>Elemento 1</li>
         <li>Elemento 2</li>
@@ -108,9 +106,73 @@
         <li>Elemento 4</li>
     </ul>
 </head>
-<body>
     <div class="contenitore">
         Questo è un div con padding di 20px.
     </div>
-        </div>        
+        </div> 
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: lightblue;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .nav {
+            background-color: #f4f4f4;
+            padding: 15px;
+            float: left;
+            width: 25%;
+            height: 300px; /* Altezza per simulare il contenuto */
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .main {
+            background-color: lightgrey;
+            padding: 20px;
+            float: left;
+            width: 75%;
+            height: 300px; /* Altezza per simulare il contenuto */
+        }
+
+        .footer {
+            background-color: lightblue;
+            text-align: center;
+            padding: 10px;
+            clear: both; /* Ripristina il flusso del documento */
+            margin-top: 10px;
+        }
+    </style>
+</head>
+    <div class="header">
+        <h1>Header</h1>
+        <p>Benvenuto nel nostro sito web!</p>
+    </div>
+
+    <div class="nav">
+        <h2>Menu</h2>
+        <ul>
+            <li>Home</li>
+            <li>Servizi</li>
+            <li>Contatti</li>
+            <li>Chi siamo</li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <h2>Contenuto principale</h2>
+        <p>Qui va il contenuto principale del sito.</p>
+    </div>
+
+    <div class="footer">
+        <p>Footer - © 2024 Tutti i diritti riservati</p>
+    </div>
+    </body>   
     </header>
