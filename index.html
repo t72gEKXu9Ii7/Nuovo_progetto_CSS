@@ -169,6 +169,19 @@
         .clear {
             clear: both;
         }
+        .container {
+            display: flex;
+            justify-content: space-between; 
+        }
+        .colonna {
+            width: 30%; 
+            padding: 10px;
+            background-color: #f0f0f0; 
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-family: Arial, sans-serif;
+            text-align: justify;
+        }
     </style>
 </head>
     <div class="header">
@@ -210,6 +223,17 @@
         <div class="clear"></div>
         <p class="paragrafo">
             Questo è un secondo paragrafo.
+        </p>
+    </div>
+    <div class="container">
+        <p class="colonna">
+            Questa è la prima colonna. Qui puoi inserire del testo o qualsiasi altro contenuto desideri.
+        </p>
+        <p class="colonna">
+            Questa è la seconda colonna. Grazie all'uso di Flexbox, ogni colonna è distribuita uniformemente.
+        </p>
+        <p class="colonna">
+            Questa è la terza colonna. Puoi personalizzare lo stile per adattarlo al tuo layout.
         </p>
     </div>
     </body>   
