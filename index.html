@@ -152,6 +152,20 @@
         .nascosto {
             display: none;
         }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .immagine {
+            float: right;
+            margin: 0 0 10px 10px;
+            width: 150px;
+            height: auto;
+        }
+        .paragrafo {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
     </style>
 </head>
     <div class="header">
@@ -177,9 +191,19 @@
     <div class="footer">
         <p>Footer - © 2024 Tutti i diritti riservati</p>
     </div>
-    
+
     <p>Questo paragrafo è visibile.</p>
     <p class="nascosto">Questo paragrafo è nascosto.</p>
     <p>Un altro paragrafo visibile.</p>
+
+    <div class="container">
+        <img src="https://tortaprint.com/wp-content/uploads/imported/Cialda-per-torta-INTER-CALCIO-decorazione-alimentare-senza-glutine-topper-cake-img-1-Pasta-di-zucchero-20x25-cm-B07NPPFWP3.jpg?_gl=1*1kgn3ky*_up*MQ..*_ga*MTQwMTA5MzM5MC4xNzMxODExNzQ5*_ga_1GR9F7J60T*MTczMTgxMTc0OC4xLjAuMTczMTgxMTc0OC4wLjAuMA.." alt="Esempio immagine" class="immagine">
+        <p class="paragrafo">
+            Questo è un esempio di paragrafo con un'immagine posizionata sulla destra. 
+            Il testo scorre intorno all'immagine grazie all'utilizzo della proprietà CSS `float`. 
+            Questa tecnica è utile per creare layout semplici e visivamente gradevoli, 
+            integrando immagini e testo in modo armonioso.
+        </p>
+    </div>
     </body>   
     </header>
